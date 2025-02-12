@@ -23,7 +23,7 @@ python -m ipykernel install --user --name=lte
 ```
 
 5. Launch the Jupyter Notebook interface with `jupyter notebook`, navigate to the `RS2025` directory, and open the
-   `Exercise_6.ipynb` or `Exercise_7.ipynb` file.
+  file `Exercise_6.ipynb` or `Exercise_7.ipynb`.
 
 6. To execute correctly the Jupyter Notebook, in the top menu bar select `Kernel` >  `Change Kernel... ` and switch the kernel from `Python 3 (ipykernel)` to `lte`.   
    Now you are ready to start the exercice !
@@ -31,7 +31,7 @@ python -m ipykernel install --user --name=lte
 
 ----------------
 
-Alternatively, you can clone the [RS2025 repository](https://github.com/ltelab/RS202) on your laptop and install the required environment using conda/mamba or micromamba:  
+Alternatively, you can clone the [RS2025 repository](https://github.com/ltelab/RS202) on your laptop and install the required environment using `conda`, `mamba` or `micromamba`:
 
 1. Go to the directory where you want to clone the repository. As an example:
 
@@ -65,7 +65,7 @@ python -m ipykernel install --user --name=lte
 ```
 
 6. Launch the Jupyter Notebook interface with `jupyter notebook`, navigate to the `RS2025` directory, and open the
-   `Exercise_6.ipynb` or `Exercise_7.ipynb` file.
+   file `Exercise_6.ipynb` or `Exercise_7.ipynb`.
 
 7. To execute correctly the Jupyter Notebook, in the top menu bar select `Kernel` >  `Change Kernel... ` and switch the kernel from `Python 3 (ipykernel)` to `lte`.   
    Now you are ready to start the exercice !
