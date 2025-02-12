@@ -16,7 +16,7 @@ Please select the `ENAC-SSIE-Ubuntu-20-04` Virtual Desktop Infrastructure (VDI) 
 micromamba activate lte
 ```
   
-4. Then create the `lte` ipykernel for Jupyter Notebook with:
+4. Then create the `lte` ipykernel for Jupyter with:
 
 ```sh
 python -m ipykernel install --user --name=lte
@@ -58,7 +58,7 @@ micromamba env create -f environment.yml
 micromamba activate lte
 ```
 
-5. Create the `lte` Jupyter Notebook environment with:
+5. Create the `lte` ipykernel for Jupyter with:
 
 ```sh
 python -m ipykernel install --user --name=lte
