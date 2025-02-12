@@ -22,11 +22,11 @@ micromamba activate lte
 python -m ipykernel install --user --name=lte
 ```
 
-5. Launch the Jupyter Notebook interface with `jupyter notebook` and open the
-   `Exercise_6.ipynb` or `Exercise_7.ipynb` file within the `RS2025` directory.
+5. Launch the Jupyter Notebook interface with `jupyter notebook`, navigate to the `RS2025` directory, and open the
+   `Exercise_6.ipynb` or `Exercise_7.ipynb` file.
 
 6. To execute correctly the Jupyter Notebook, in the top menu bar select `Kernel` >  `Change Kernel... ` and switch the kernel from `Python 3 (ipykernel)` to `lte`.   
-   And now ... happy coding :-)
+   Now you are ready to start the exercice !
 
 
 ----------------
@@ -46,7 +46,7 @@ git clone git@github.com:ltelab/RS2025.git
 cd RS2025
 ```
 
-3. Install the dependencies using conda:
+3. Install the dependencies using `conda`, `mamba` or `micromamba`:
 
 ```sh
 micromamba env create -f environment.yml
@@ -58,17 +58,17 @@ micromamba env create -f environment.yml
 micromamba activate lte
 ```
 
-4. Create the `lte` Jupyter Notebook environment with:
+5. Create the `lte` Jupyter Notebook environment with:
 
 ```sh
 python -m ipykernel install --user --name=lte
 ```
 
-5. Launch the Jupyter Notebook interface with `jupyter notebook` and open the
-   `Exercise_6.ipynb` or `Exercise_7.ipynb` file within the `RS2025` directory.
+6. Launch the Jupyter Notebook interface with `jupyter notebook`, navigate to the `RS2025` directory, and open the
+   `Exercise_6.ipynb` or `Exercise_7.ipynb` file.
 
-6. To execute correctly the Jupyter Notebook, in the top menu bar select `Kernel` >  `Change Kernel... ` and switch the kernel from `Python 3 (ipykernel)` to `lte`.   
-   And now ... happy coding :-)
+7. To execute correctly the Jupyter Notebook, in the top menu bar select `Kernel` >  `Change Kernel... ` and switch the kernel from `Python 3 (ipykernel)` to `lte`.   
+   Now you are ready to start the exercice !
 
 
 ----------------
