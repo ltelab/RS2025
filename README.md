@@ -2,29 +2,32 @@
 
 This repository contains the exercices for the EPFL Remote Sensing Course.
 
-The exercises can be executed directly on the EPFL VMware Horizon platform  `ENAC-SSIE-Ubuntu-20-04` after following these steps:
+The exercises can be executed directly on the EPFL VMware Horizon platform. 
+Please select the `ENAC-SSIE-Ubuntu-20-04` Virtual Desktop Infrastructure (VDI) and then follow these steps:
 
-0. [Download the RS2025 GitHub repository](https://github.com/ltelab/RS2025/archive/refs/heads/main.zip)
+1. [Download the RS2025 GitHub repository](https://github.com/ltelab/RS2025/archive/refs/heads/main.zip)
 
-1. Unzip the `RS2025-main.zip` file and move the `RS2025` directory wherever you prefer (i.e. within the `/home/ghiggi/courses/` directory).
+2. Unzip the `RS2025-main.zip` file and move the `RS2025` directory within the `/home/<your_username>/Desktop/myfiles/` directory.
+   If your data are saved within the `/myfiles` directory, they will be available the next time you reconnect to the VDI. 
 
-2. Open a terminal and activate the `lte` environment with:
+3. Open a terminal and activate the `lte` environment with:
 
 ```sh
 micromamba activate lte
 ```
   
-3. Create the `lte` Jupyter Notebook environment with:
+4. Then create the `lte` ipykernel for Jupyter Notebook with:
 
 ```sh
 python -m ipykernel install --user --name=lte
 ```
 
-4. Launch the Jupyter Notebook interface with:
+5. Launch the Jupyter Notebook interface with `jupyter notebook` and open the
+   `Exercise_6.ipynb` or `Exercise_7.ipynb` file within the `RS2025` directory.
 
-```sh
-jupyter notebook
-```
+6. To execute correctly the Jupyter Notebook, in the top menu bar select `Kernel` >  `Change Kernel... ` and switch the kernel from `Python 3 (ipykernel)` to `lte`.   
+   And now ... happy coding :-)
+
 
 ----------------
 
@@ -49,10 +52,10 @@ cd RS2025
 micromamba env create -f environment.yml
 ```
 
-3. Activate the `lte` conda environment:
+4. Activate the `lte` conda environment:
 
 ```sh
-conda activate lte
+micromamba activate lte
 ```
 
 4. Create the `lte` Jupyter Notebook environment with:
@@ -61,11 +64,12 @@ conda activate lte
 python -m ipykernel install --user --name=lte
 ```
 
-6. Launch the Jupyter Notebook interface with:
+5. Launch the Jupyter Notebook interface with `jupyter notebook` and open the
+   `Exercise_6.ipynb` or `Exercise_7.ipynb` file within the `RS2025` directory.
 
-```sh
-jupyter notebook
-```
+6. To execute correctly the Jupyter Notebook, in the top menu bar select `Kernel` >  `Change Kernel... ` and switch the kernel from `Python 3 (ipykernel)` to `lte`.   
+   And now ... happy coding :-)
+
 
 ----------------
 
